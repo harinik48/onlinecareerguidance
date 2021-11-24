@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<title>Online career guidance</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/millennials-advance-your-career-article.jpg");
+  min-height: 100%;
+}
+.w3-image {
+    max-width: 100%;
+    height: -webkit-fill-available;
+} 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+
+#mybutton {
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
+}
+
+
+</style>
+
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">HOME</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+        <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-home"></i>ABOUT</a>
+        <a href="#dashboard" class="w3-bar-item w3-button"><i class="fa fa-arrow-up"></i> DASHBOARD</a>
+        <a href="#10th courses" class="w3-bar-item w3-button"><i class="fa fa-search"></i>10th COURSES</a>
+        <a href="#12th courses" class="w3-bar-item w3-button"><i class="fa fa-bars"></i>12th COURSES</a>
+        <a href="#quiz" class="w3-bar-item w3-button"><i class="fa fa-key"></i> QUIZ</a>
+        <a href="#expert advice" class="w3-bar-item w3-button"><i class="fa fa-refresh"></i>EXPERT ADVICE</a>
+      </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#dashboard" onclick="w3_close()" class="w3-bar-item w3-button">DASHBOARD</a>
+  <a href="#10th" onclick="w3_close()" class="w3-bar-item w3-button">10th COURSES</a>
+  <a href="#12th" onclick="w3_close()" class="w3-bar-item w3-button">12th COURSES</a>
+  <a href="#quiz" onclick="w3_close()" class="w3-bar-item w3-button">QUIZ</a>
+  <a href="#expertadvice" onclick="w3_close()" class="w3-bar-item w3-button"> EXPERT ADVICE</a>\
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">iDreamCareer</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">iDreamCareer</span><br>
+    <span class="w3-large">One solution to all your career confusions!</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Start Exploring</a></p>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+    <h3 class="w3-center">ABOUT THE PAGE</h3>
+    <div class="w3-row-padding w3-center" style="margin-top:64px">
+      <div class="w3-half">
+        <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+        <p class="w3-large">Purpose</p>
+        <p>This project ‘Online Career Guidance’ is an online website in which students can register themselves and can seek number of ways for their future! </p>
+      </div>
+      
+      <div class="w3-half">
+        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Main idea</p>
+        <p>This website will help students pursue their goals by letting them choose an accurate path in their respective fields of interest.​</p>
+      </div>
+    </div>
+  </div>
+
+
+<!--DASHBOARD -->
+<div class="w3-container" style="padding:128px 16px" id="dashboard">
+  <h3 class="w3-left">DASHBOARD</h3>
+  <br>
+  <br>
+<img src="https://articles.collegebol.com/wp-content/uploads/2020/01/2454881.jpg" alt="Loading">
+
+<head>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #000080;
+}
+
+.button1:hover {
+  background-color: #000080;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<button class="button button1">LOGIN</button>
+<a href="localhost/form">
+<button class="button button2">SIGN-UP</button>
+</a>
+</body>
+
+
+
+ 
+
+
+
+
+
+
+<!-- 10th COURSES -->
+<div class="w3-container" style="padding:128px 16px" id="10th courses"></div>
+<h3>COURSES FOR 10th</h3>
+<p class="w3-centre w3-large" >
+Nowadays every feild has lots of opportunities but one should always choose according to their interests.So here are the top career options after passing class 10:
+</p>
+<img src="https://lh3.googleusercontent.com/proxy/3HQe6j-SpuIjZY5aAl5m1wzdGXVuEzrhDVq7CYrntc7_Decw_XYD7yRfdD5EkBoCSLv_32Qn-_5Or9EeRAylaj38C3KCL_vYIB14TohXcYrnCXWVtk8JMw" alt="Loading">
+<p class="w3-centre w3-large" >
+
+ <strong>SCIENCE</strong>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Science-symbol-2.svg/2048px-Science-symbol-2.svg.png" alt="Image Loading">
+<p class="w3-centre w3-large" >
+Science offers many career options such as engineering, medical and research roles. It is the most favourite career option for parents and students.
+The major advantage of science is, after class 12th you can switch from science to commerce or science to arts. There are multiple career options available for the science stream after class 12th.
+Physics, Chemistry, Maths, Biology are the main subjects in the Science stream.
+</p>
+ <strong>COMMERCE</strong>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqRcDaD9EL5H-mbzIpl5HUt8NuQZ1SbHzxuw&usqp=CAU" alt="Image Loading">
+<p class="w3-centre w3-large" >
+Commerce is the second most popular career option after science. Commerce is best for Business. If you are fascinated by numbers, finances, and economics then commerce is for you.
+It offers a wider variety of carrier options such as Chartered Accountant, MBA, investment in banking sectors. You must be familiar with Accountancy, Finances, and Economics.
+</p>
+
+
+ <strong>ARTS/HUMANITIES</strong>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6BNRDYMv9B7Qv_mGw7lTMKuenIe_6v9mecQ&usqp=CAU" alt="Image Loading">
+<p class="w3-centre w3-large" >
+Arts/ Humanities are of those who are interested in academic research. If you are creative and want to dive deep into Humanity, then arts is the stream for you. History, Political Science, Geography are the core subjects for Arts Students.
+
+Arts now offers an array of career alternating which are equally rewarding as the ones offered by Science and Commerce.
+</p>
+
+
+ <strong>ITI(Industrial Training Institution)</strong>
+<img src="https://iti.telangana.gov.in/images@/TS_ITI_logo.jpg" alt="Image Loading">
+<p class="w3-centre w3-large" >
+They are training centers that provide courses to students seeking easy employment just after completing school. ITI courses are great opportunities for students who wish to complete any technical course within a short period.
+By completing a course in ITI, the student is now trained in Industrial skills and can earn a living by working in the same field.
+</p>
+
+
+
+
+
+ <strong>POLYTECHNIC</strong>
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/0e668922854455.563196cd755e1.jpg" alt="Image Loading">
+<p class="w3-centre w3-large" >
+After class 10th, students can go for polytechnic courses like Mechanical, Civil, Chemical, Computer, Automobile. These colleges offer diploma courses for 3 years, 2 years and 1 year. Cost-effectiveness, jobs within a short time duration are the advantages of diploma courses after 10th.
+</p>
+
+
+
+  <strong>SPORTS</strong>
+<img src="https://blog.ipleaders.in/wp-content/uploads/2021/08/Return_of_Sports.jpg" alt="Image Loading">
+<p class="w3-centre w3-large" >
+While talking about career in the sports sector, the first thing that comes to our mind is the prospect of becoming a professional athlete. Professional athletes play a sport full time.
+Sports persons usually take a specific sport and make it their area of expertise. Some of the popular sports in India are – Cricket, Football, Badminton, Boxing, Volleyball, Basketball, Archery, Shooting, Weightlifting, Wrestling, Swimming, Squash, Tennis, Hockey, Gymnastics etc.
+</p>
+</p>
+
+
+
+
+
+<!--12th COURSES-->
+<div class="w3-container" style="padding:128px 16px" id="12th courses"></div>
+<h3>COURSES FOR 12th</h3>
+<p class="w3-centre w3-large" >
+Choosing what to study after class 12th is a critical and career defining desicion. Unfortunately, too many students begin career planning at the last minute and end up choosing paths that are popular,but not suited to their aptitudes. Therefore, it is important to begin early and to know what options lay ahead of you after school so that you make an intelligent and calculative decision.
+</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkYxqDvLPYZvL3RtkIYnntS8F-3AjBcIMZSQ&usqp=CAU" alt="Loading!">
+
+<head>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008080;
+}
+
+.button1:hover {
+  background-color: #008080;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #00FFFF;
+}
+
+.button2:hover {
+  background-color: #00FFFF;
+  color: white;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #8a2be2;
+}
+
+.button4:hover {
+  background-color:#8a2be2;
+  color: white;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid  #555555;
+}
+
+.button5:hover {
+  background-color:  #555555;
+  color: white;
+}
+
+
+</style>
+</head>
+<body>
+
+<button class="button button1">SCIENCE</button>
+<button class="button button2">COMMERCE</button>
+<button class="button button3">ARTS/HUMANITIES</button>
+<button class="button button4">ITI</button>
+<button class="button button5">POLYTECHNIC</button>
+
+</body>
+
+
+
+
+
+
+
+
+<!-- QUIZ-->
+<div class="w3-container" style="padding:128px 16px" id="quiz"></div>
+<h3 class="w3-center">QUIZ</h3>
+<img src="https://corporate.thinkexam.com/image/Practice_test.png" alt="loading">
+
+
+
+<!-- expert advice -->
+<div class="w3-container" style="padding:128px 16px" id="expert advice"></div>
+<h3 class="w3-center">EXPERT ADVICE</h3>
+<img src="https://ieeecs-media.computer.org/wp-media/2018/09/05163940/securityexpert750x500.jpg" alt="image loading!">
+ </script>
+  </body>
+  </html>
