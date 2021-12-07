@@ -1,0 +1,55 @@
+<!-- expert advice -->
+<div class="w3-container" style="padding:128px 16px" id="expert advice"></div>
+<h3 class="w3-center">EXPERT ADVICE</h3>
+<img src="https://ieeecs-media.computer.org/wp-media/2018/09/05163940/securityexpert750x500.jpg" alt="image loading!">
+
+ <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://www.careerguide.com/images/userimage/exp_appumiragmailcom.jpg" alt="Dan" style="width:100%">
+      <h3>Dr.Aparna</h3>
+      <p class="w3-opacity">PhD Organizational Psychology</p>
+      <p>Dr. Aparna has a PhD in Organizational Psychology from the UK and is researching about Indian women and Generation Y employment for UNDP. Before to this she has worked as a Management Consultant with European Commission project UK. She has obtained her MS, MRes and PhD degrees from UK and was a winner of the prestigious and competitive Vice Chancellor scholarship.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      <label>Email:</label>
+      <a href="mailto:aparnadr@google.com?&subject=Mail from iDreamcareer.com&body=Dear iDreamcareer.com"target="_blank">aparnadr@google.com</a>
+    </div>
+
+ <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://www.careerguide.com/images/userimage/EXP_drkvanandrediffmailcom.jpg" alt="Dan" style="width:100%">
+      <h3>Dr. K.V. Anand</h3>
+      <p class="w3-opacity">Career Guide, Educationist, Author</p>
+      <p> He is a Certified Motivation trainer and personality development trainer. He is experienced in evaluating of psychology or psychiatry cases. Uses Psychometric tests such as personality, bipolar disorder test evaluation, student counseling. He has more than 9 years experience in soft skill training field covering career guidance, education, motivation, personality development, team building, leadership skills, stress management, conflict management, decision making.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      <label>Email:</label>
+      <a href="mailto:anandkv@google.com?&subject=Mail from iDreamcareer.com&body=Dear iDreamcareer.com"target="_blank">anandkv@google.com</a>
+    </div>
+
+ <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://ik.imagekit.io/careerguide/blog/wp-content/uploads/2016/03/Graduation-Optimized-e1457432492428.jpg" alt="Dan" style="width:100%">
+      <h3>PRATHAMESH KAPOTE</h3>
+      <p class="w3-opacity">Founder And Director At Canvas Career</p>
+      <p>Mr. Prathamesh is a Certified Career Consultant by Psytech International (bps) UK and is also a Certified Trainer for Life Skills; he is pursuing Narrative Therapy from Adelaide, Australia. He has been in to career counseling for more than 8 years now he practices MINDFULNESS psychotherapy with students. He possesses vast experience in teaching and career counseling. Currently he is associated with FUEL NGO. He had counseled over laces of students and is a founder director of Canvas Career Consultancy, committed to conduct Psychometric assessments for students and do career counseling by making them aware about new career avenues</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      <label>Email:</label>
+      <a href="mailto:prathameshkapote@google.com?&subject=Mail from iDreamcareer.com&body=Dear iDreamcareer.com"target="_blank">prathameshkapote@google.com</a>
+    </div>
+
+
+ 
+   
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://www.careerguide.com/images/userimage/Meghna-09012016040531.jpg" alt="Dan" style="width:100%">
+      <h3>Meghna Mukherjee</h3>
+      <p class="w3-opacity">Counselor at Adaptive Minds</p>
+      <p>Mrs. Meghna is a Postgraduate in clinical Psychology. She had been a part of several workshops related to Personality Enhancement, Counseling, Child and Adolescent Psychiatry, Therapy, Hypnosis for self Healing etc. She works at Adaptive Mind as freelance counselor and had worked as an executive counselor at Growth Centre, School Counselor at Billabong High International School, Sri Sri Ravi Shankar Vidya mandir. </p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      <label>Email:</label>
+      <a href="mailto:meghanamukherjee@google.com?&subject=Mail from iDreamcareer.com&body=Dear iDreamcareer.com"target="_blank">meghanamukherjee@google.com</a>
+    </div>
+  </div>
+
+
+
+</div>
+
+<!-- End page content -->
+</div>
